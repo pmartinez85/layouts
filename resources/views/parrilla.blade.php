@@ -12,11 +12,15 @@
 		border:1px black solid;
 		background: cornflowerblue;
 		text-align: center;
+		margin:10px;
 		
+	}
+	.row {
+		display: flex;
 	}
 	.container {
 		border: 1px green solid;
-		display: flex;
+
 		justify-content: center;
 		align-items: center;
 		text-align: center;
