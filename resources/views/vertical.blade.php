@@ -13,11 +13,15 @@
 
 		background: green;
         color: white;
+        text-align: center;
 	}
+    #bloc{
+        border: 1px black solid;
+    }
 
 </style>
 
 <body>
-hello world
+<div id="bloc">Prova</div>
 </body>
 </html>
