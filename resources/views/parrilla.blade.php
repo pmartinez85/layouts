@@ -10,14 +10,33 @@
 <style>
 	.row,.col {
 		border:1px black solid;
-		background: cornflowerblue;
 		text-align: center;
 		margin:10px;
+
+
+
 		
 	}
 	.row {
 		display: flex;
+		background: black;
+
 	}
+	.col {
+		background: coral;
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: auto;
+
+	}
+
+	.col:nth-child(2) {
+		flex-grow: 2;
+	}
+	.col:nth-child(5){
+		flex-shrink: 2;
+	}
+
 	.container {
 		border: 1px green solid;
 
