@@ -20,11 +20,15 @@
         text-align: center;
         max-width: 500px;
         margin: 0 auto;
+        display: inline-block;
     }
 
 </style>
 
 <body>
+<div id="bloc">Prova</div>
+<div id="bloc">Prova</div>
+<div id="bloc">Prova</div>
 <div id="bloc">Prova</div>
 </body>
 </html>
