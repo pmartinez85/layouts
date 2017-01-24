@@ -14,8 +14,7 @@
 		background: green;
         color: white;
         display: flex;
-
-
+        justify-content: center;
 	}
     .bloc{
         border: 1px black solid;
@@ -28,18 +27,5 @@
 
 <body>
 Hello World
-<div class="bloc">Prova</div>
-<div class="bloc">Prova</div>
-<div class="bloc">Prova</div>
-<div class="bloc">Prova</div>
-<div class="bloc">Prova</div>
-<div class="bloc">Prova</div>
-<div class="bloc">Prova</div>
-<div class="bloc">Prova</div>
-<div class="bloc">Prova</div>
-<div class="bloc">Prova</div>
-<div class="bloc">Prova</div>
-<div class="bloc">Prova</div>
-
 </body>
 </html>
