@@ -17,6 +17,9 @@
 	}
     #bloc{
         border: 1px black solid;
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
     }
 
 </style>
