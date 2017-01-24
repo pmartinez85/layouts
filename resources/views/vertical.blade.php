@@ -13,15 +13,33 @@
 
 		background: green;
         color: white;
-        text-align: center;
         display: flex;
 
-	}
 
+	}
+    .bloc{
+        border: 1px black solid;
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+    }
 
 </style>
 
 <body>
-Hello world
+Hello World
+<div class="bloc">Prova</div>
+<div class="bloc">Prova</div>
+<div class="bloc">Prova</div>
+<div class="bloc">Prova</div>
+<div class="bloc">Prova</div>
+<div class="bloc">Prova</div>
+<div class="bloc">Prova</div>
+<div class="bloc">Prova</div>
+<div class="bloc">Prova</div>
+<div class="bloc">Prova</div>
+<div class="bloc">Prova</div>
+<div class="bloc">Prova</div>
+
 </body>
 </html>
