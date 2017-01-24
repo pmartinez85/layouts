@@ -24,28 +24,17 @@
 	}
 	.col {
 		background: coral;
-		flex-grow: 1;
-		flex-shrink: 1;
-		flex-basis: auto;
+		flex: 1 1 400px;
 
 	}
 
 	.col:nth-child(2) {
-		flex-grow: 2;
+		flex: 2 1 20%;
 	}
 	.col:nth-child(5){
-		flex-shrink: 2;
+		flex: 1 2 50%;
 	}
 
-	.container {
-		border: 1px green solid;
-
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		margin: 0 auto;
-		height:100%;
-	}
 	
 </style>
 <body>
