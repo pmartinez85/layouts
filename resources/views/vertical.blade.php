@@ -9,12 +9,19 @@
 </head>
 
 <style>
+
+    html,body {
+        height:100%;
+
+    }
 	body {
 
 		background: green;
         color: white;
         display: flex;
         justify-content: center;
+        align-items: center;
+        border: 1px black solid;
 	}
     .bloc{
         border: 1px black solid;
@@ -26,6 +33,6 @@
 </style>
 
 <body>
-Hello World
+<h1>Hello World</h1>
 </body>
 </html>
