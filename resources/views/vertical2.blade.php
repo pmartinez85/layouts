@@ -7,8 +7,8 @@
 
 @section('main-content')
 
-	<div class="totalcentered">
-		Hello World
+	<div class="contenidor">
+		Hello World 2
 	</div>
 
 @endsection

@@ -20,10 +20,16 @@
         ]) !!};
     </script>
     <style>
+        
+        .contenidor {
 
-        .totalcentered {
-            border: 1px black solid;
-
+            border: 1px green solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+            height:100%;
         }
 
     </style>
