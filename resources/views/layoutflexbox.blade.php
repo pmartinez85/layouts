@@ -11,12 +11,15 @@
 
 	.wrapper {
 		display: flex;
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: -moz-box;
-		display: -ms-box;
+		flex-flow: row wrap;
+	}
 
+	* {
+		border: 1px black solid;
 
+	}
+	header {
+		flex: 1 100%;
 	}
 
 
